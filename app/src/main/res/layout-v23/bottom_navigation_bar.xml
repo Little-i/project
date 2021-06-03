@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal"
+    android:background="#F2F2F2"
+    android:padding="2dp">
+
+    <LinearLayout
+        android:id="@+id/ll_home"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:foreground="?selectableItemBackground">
+
+        <ImageView
+            android:id="@+id/iv_home"
+            android:layout_width="@dimen/bar_image_height"
+            android:layout_height="@dimen/bar_image_height"
+            android:src="@drawable/bar_home"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="首页" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_recovery"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:foreground="?selectableItemBackground">
+
+        <ImageView
+            android:id="@+id/iv_recovery"
+            android:layout_width="@dimen/bar_image_height"
+            android:layout_height="@dimen/bar_image_height"
+            android:src="@drawable/bar_recovery"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="康复" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_forum"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:foreground="?selectableItemBackground">
+
+        <ImageView
+            android:id="@+id/iv_forum"
+            android:layout_width="@dimen/bar_image_height"
+            android:layout_height="@dimen/bar_image_height"
+            android:background="@drawable/bar_forum"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="论坛" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_mine"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:foreground="?selectableItemBackground">
+
+        <ImageView
+            android:id="@+id/iv_mine"
+            android:layout_width="@dimen/bar_image_height"
+            android:layout_height="@dimen/bar_image_height"
+            android:background="@drawable/bar_mine"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我的" />
+    </LinearLayout>
+</LinearLayout>

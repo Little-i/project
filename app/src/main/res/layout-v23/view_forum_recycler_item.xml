@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_margin="@dimen/height_10"
+    android:foreground="?selectableItemBackground">
+
+    <LinearLayout
+        android:id="@+id/ll_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circleIv"
+            android:layout_width="@dimen/height_50"
+            android:layout_height="@dimen/height_50" />
+
+        <TextView
+            android:id="@+id/tv_authorName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/height_10"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_20"
+            android:orientation="horizontal"
+            android:gravity="right">
+
+            <ImageView
+                android:id="@+id/iv_heart"
+                android:layout_width="@dimen/height_20"
+                android:layout_height="@dimen/height_20"
+                android:src="@drawable/forum_heart"
+                android:scaleType="centerCrop"/>
+
+            <ImageView
+                android:id="@+id/iv_comment"
+                android:layout_width="@dimen/height_20"
+                android:layout_height="@dimen/height_20"
+                android:layout_marginStart="@dimen/height_20"
+                android:layout_marginEnd="@dimen/height_20"
+                android:src="@drawable/icon_comment"
+                android:scaleType="centerCrop"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

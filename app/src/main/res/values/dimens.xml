@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ButtonHeight">50dp</dimen>
+    <dimen name="bar_image_height">30dp</dimen>
+    <dimen name="forumFragment_imageHeight">35dp</dimen>
+    <dimen name="height_5">5dp</dimen>
+    <dimen name="height_10">10dp</dimen>
+    <dimen name="height_20">20dp</dimen>
+    <dimen name="height_30">30dp</dimen>
+    <dimen name="height_40">40dp</dimen>
+    <dimen name="height_50">50dp</dimen>
+    <dimen name="height_60">60dp</dimen>
+    <dimen name="textSize_10">10sp</dimen>
+    <dimen name="textSize_12">12sp</dimen>
+    <dimen name="textSize_15">15sp</dimen>
+    <dimen name="textSize_20">20sp</dimen>
+    <dimen name="textSize_30">30sp</dimen>
+</resources>
